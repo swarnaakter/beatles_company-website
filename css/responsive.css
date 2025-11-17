@@ -1,0 +1,214 @@
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 320px) and (max-width:575px) {
+
+    .welcome-text{
+        text-align: center;
+        margin-top: 5px;
+    }
+    .top-icon {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .top-icon li{
+        margin-right: 10px;
+    }
+    .nav-main{
+        padding: 10px 0;
+    }
+    .banner-overlay{
+        padding: 17px 0;
+    }
+    .banner-content h3 {
+        font-size: 25px;
+    }
+    .banner-content h2 {
+        font-size: 30px;
+    }
+    .banner-content p {
+        font-size: 13px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        line-height: 20px;
+    }
+    .common-heading {
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+    .about-content p {
+        margin-top: 20px;
+        text-align: justify;
+    }
+    .services-section {
+        margin-top: 9px;
+        margin-bottom: 0;
+    }
+    .services-main {
+        margin-top: 50px;
+    }
+    .team-main{
+        margin-bottom: 40px;
+    }
+    .testimonial-section {
+        margin-bottom: 20px;
+        margin-top: -27px;
+    }
+    .testimonial-main{
+        margin-bottom: 30px;
+    }
+    .testimonial-content p{
+        text-align: justify;
+    }
+    .footer-first {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .footer-heading h3 {
+        text-align: center;
+    }
+    .footer-second{
+        text-align: center;
+    }
+    .footer-three-content{
+        text-align: center;
+    }
+    .footer-bottom{
+        height: 20px;
+    }
+    .footer-bottom-content p{
+        font-size: 10px;
+    }
+
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width:767px) { 
+
+    .nav-main {
+        padding: 10px 0;
+    }
+    .banner-overlay {
+        padding: 44px 0;
+    }
+    .about-img {
+        text-align: center;
+    }
+    .about-content p {
+        text-align: justify;
+    }
+    .about-section .common-heading {
+        margin-top: 45px;
+        margin-bottom: 60px;
+    }
+    .services-section .common-heading {
+        margin-top: 0px;
+        margin-bottom: 80px;
+    }
+    .services-main{
+        margin-bottom: 50px;
+        padding: 50px 10px 20px;
+    }
+    .services-main p{
+        text-align: justify;
+    }
+    .portfolio-section .common-heading {
+        margin-top: 10px;
+        margin-bottom: 60px;
+    }
+    .team-section .common-heading {
+        margin-top: 35px;
+        margin-bottom: 65px;
+    }
+    .team-main{
+        margin-bottom: 35px;
+    }
+    .team-img {
+        height: 300px;
+    }
+    .common-heading {
+        margin-top: 35px;
+        margin-bottom: 60px;
+    }
+    .testimonial-content {
+        padding: 10px;
+    }
+    .testimonial-content p {
+        margin-top: 10px;
+        text-align: justify;
+    }
+    .footer-main{
+        text-align: center;
+    }
+    .footer-bottom-content p{
+        font-size: 10px;
+    }
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width:991px) {
+
+    .nav-main {
+        padding: 10px 0;
+    }
+    .banner-overlay {
+        padding: 35px 0;
+    }
+    .about-section .common-heading {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .about-content p {
+        margin-top: 10px;
+    }
+    .services-section .common-heading {
+        margin-top: -10px;
+        margin-bottom: 70px;
+    }
+    .services-main {
+        padding: 52px 10px 10px 10px;
+    }
+    .services-main h3 {
+        margin-bottom: 15px;
+    }
+    .services-main p{
+        text-align: justify;
+        line-height: 25px;
+    }
+    .portfolio-section .common-heading {
+        margin-top: 35px;
+        margin-bottom: 60px;
+    }
+    .team-section .common-heading {
+        margin-top: 50px;
+        margin-bottom: 70px;
+    }
+    .team-main{
+        margin-bottom: 35px;
+    }
+    .testimonial-section .common-heading {
+        margin-top: 25px;
+        margin-bottom: 60px;
+    }
+    .footer-bottom-content p{
+        font-size: 10px;
+    }
+
+
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width:1199px) { 
+
+    .team-img {
+        height: 270px;
+    }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width:1399px) { }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { }
